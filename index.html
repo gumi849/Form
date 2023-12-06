@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <main>
+        <div class="info">
+            <h4>Пожалуйста, укажите Ваше имя и фамилию.</h4>
+            <p>Чтобы облегчить общение и поиск друзей, у нас приняты настоящие имена и фамилии.</p>
+            <form action="#">
+                <input type="text" placeholder="Ваше имя ">
+                <input type="text" placeholder="Ваша фамилия">
+                <p class="birthLabel">Дата рождения</p>
+                <div class="birthdate-container">
+                    <select class="birthdate" name="birthday">
+                        <option value="">День</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select class="birthdate" name="birthmonth">
+                        <option value="">Месяц</option>
+                        <option value="Декабрь">Декабрь</option>
+                        <option value="Январь">Январь</option>
+                        <option value="Февраль">Февраль</option>
+                    </select>
+                    <select class="birthdate" name="birthyear">
+                        <option value="">Год</option>
+                        <option value="1984">1984</option>
+                        <option value="1985">1985</option>
+                        <option value="1986">1986</option>
+                    </select>
+                </div>
+                <button class="submit" type="submit">Зарегистрироваться</button>
+                <p class="or">или</p>
+            </form>
+            <button class="facebook">Продолжить с Facebook</button>
+
+    </main>
+    </div>
+</body>
+
+</html>
